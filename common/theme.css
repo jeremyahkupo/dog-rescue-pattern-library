@@ -1,15 +1,27 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --secondary: lightcoral;
+  --color-primary: #6268AF;
+  --color-primary-light: #7995C1;
+  --secondary: #448ABE;
   --color-accent: greenyellow;
   --color-natural-beige: #e2e2e2;
-  --color-whatever: peachpuff;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", arial, sans-serif;
-  --font-secondary: "Source Cde Pro", menlo, consolas, monospace;
+  --font-primary: "reklame-script", sans-serif;
+  --font-secondary: "soleil", sans-serif;
+
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+}
+
+.peta {
+  font-family: var(--font-secondary);
+}
+
+.tera {
+  font-family: var(--font-secondary);
 }

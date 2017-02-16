@@ -10,16 +10,16 @@ fonts:
     The font choice is this because...
 
     The font is very nice.
-  colors:
-    primary: |
-      The color choice is this because...
+colors:
+  primary: |
+    The color choice is this because...
 
-      The color is very nice.
+    The color is very nice.
 
-    secondary: |
-      The color choice is this because...
+  secondary: |
+    The color choice is this because...
 
-      The color is very nice.
+    The color is very nice.
 ---
 
 This is a company introduction so amazing and all that fun stuff dog dog dog dog

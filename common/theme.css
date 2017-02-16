@@ -16,3 +16,25 @@ html {
 h1 {
   font-family: var(--font-primary);
 }
+
+.tera {
+  font-family: var(--font-secondary);
+}
+
+a {
+  font-weight: bold;
+  color: #6268af;
+  text-decoration: none;
+}
+
+ul {
+  font-weight: 200;
+}
+
+ol {
+  font-weight: 200;
+}
+
+dl {
+  font-weight: 200;
+}

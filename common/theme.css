@@ -40,5 +40,5 @@ dl {
 }
 
 mark {
-  background-color: var(--color-secondary)
+  background-color: var(--color-secondary);
 }

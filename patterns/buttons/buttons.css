@@ -4,6 +4,13 @@
   color: #fff;
 }
 
+.btn:hover {
+  background-color: rgba(98, 104, 175, 0.7);
+  border-color: transparent;
+  
+
+}
+
 .btn-light {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);

@@ -1,3 +1,8 @@
+html {
+  border: 3px solid var(--color-primary);
+  border-radius: .5em;
+}
+
 .dog-icon {
   background-color: #efefef;
   border-radius: 25px;
@@ -5,4 +10,20 @@
 
 h2 {
   color: var(--color-secondary);
+}
+
+.header-s {
+  display: none;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .header-s {
+    display: block;
+  }
+
+  .header-xs {
+    display: none;
+  }
 }

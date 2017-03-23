@@ -10,10 +10,18 @@
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
 
   <form class="max-length island" method="post" novalidate>
+
+    <select>
+    <option value="Mr">Mr</option>
+    <option value="Mrs">Mrs</option>
+    <option value="Ms">Ms</option>
+    <option value="Buddy">Buddy</option>
+    <select>
 
   <div class="push-1-2">
     <label for="name">First Name</label>
@@ -50,12 +58,15 @@
     <input id="name" required aria-describedby="name-error">
     <p class="error-message milli island-1-4 push-0" id="name-error"></p>
   </div>
-  <div class="allergies push-1-2">
+  <div class="push-1-2">
     <label for="name">Allergies</label>
-    <input id="name" required aria-describedby="name-error">
+    <textarea id="name" required aria-describedby="name-error"></textarea>
     <p class="error-message milli island-1-4 push-0" id="name-error"></p>
   </div>
 
+  <div class="text-right">
+    <a class="btn" href="#">Next Page ></a>
+  </div>
 
 </body>
 </html>

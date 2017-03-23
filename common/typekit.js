@@ -1,6 +1,6 @@
 (function(d) {
   var config = {
-    kitId: '{{typekitId}}',
+    kitId: 'igo7cfl',
     scriptTimeout: 3000,
     async: true
   },

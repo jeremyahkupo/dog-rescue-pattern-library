@@ -1,0 +1,38 @@
+footer {
+  background-size: 64px;
+  background-color: var(--color-secondary-light);
+}
+
+a {
+  padding: 30px 10px 30px 10px;
+  color: var(--color-secondary);
+}
+
+a:hover, a:focus {
+  color: var(--color-primary);
+  outline: 0;
+}
+
+.copyright, .blurb {
+  color: #fff;
+  font-weight: 100;
+  font-size: 60%;
+}
+
+.phone, .address {
+  color: #fff;
+  font-weight: 100;
+  display: inline-block;
+  padding: 0px 30px 0px 30px;
+  text-align: left;
+  margin: 0;
+}
+
+.contact {
+  color: #fff;
+  font-weight: 100;
+  display: inline-block;
+  padding: 0px 30px 0px 30px;
+  text-align: left;
+  margin: 0;
+}

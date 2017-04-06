@@ -4,7 +4,7 @@ html {
 
 .masthead {
   background-size: 64px;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary-light);
 }
 
 h1 {
@@ -23,10 +23,14 @@ h1 {
   text-align: center;
 }
 
+a {
+  font-weight: 100;
+}
+
 .nav a {
   text-decoration: none;
   color: #fff;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary-light);
   transition: all 400ms linear
 }
 

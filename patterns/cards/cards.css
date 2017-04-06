@@ -3,27 +3,27 @@ html {
   border-radius: .5em;
 }
 
-.dog-icon {
+.card .dog-icon {
   background-color: #efefef;
   border-radius: 25px;
 }
 
-h2 {
+.card h2 {
   color: var(--color-secondary);
 }
 
-.header-s {
+.card .header-s {
   display: none;
 }
 
 
 @media only screen and (min-width: 25em) {
 
-  .header-s {
+  .card .header-s {
     display: block;
   }
 
-  .header-xs {
+  .card .header-xs {
     display: none;
   }
 }

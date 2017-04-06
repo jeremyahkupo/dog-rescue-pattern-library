@@ -1,8 +1,8 @@
-html {
+.form html {
   font-family: var(--font-secondary);
 }
 
-select {
+.form select {
   border-color: #dedde0;
   border-radius: 7px;
   border-width: 3px;
@@ -10,7 +10,7 @@ select {
   padding-left: 34px;
 }
 
-input {
+.form input {
   border-color: #dedde0;
   border-radius: 7px;
   border-width: 3px;
@@ -22,7 +22,7 @@ input {
   background-size: 14px;
 }
 
-textarea {
+.form textarea {
   border-color: #dedde0;
   border-radius: 7px;
   border-width: 3px;
@@ -35,16 +35,21 @@ textarea {
   resize: none;
 }
 
-label {
+.form label {
   color: var(--color-secondary);
 }
 
-input:focus {
+.form input:focus {
   outline: 0;
   border-color: var(--color-primary);
 }
 
-textarea:focus {
+.form textarea:focus {
   outline: 0;
   border-color: var(--color-primary);
+}
+
+.form a:focus {
+  background color: var(--color-primary-light);
+  outline: 0;
 }

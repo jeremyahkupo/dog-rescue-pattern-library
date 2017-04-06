@@ -1,8 +1,8 @@
-a {
+.icon-nav a {
   padding: 20px 30px 0 30px;
   color: var(--color-secondary);
 }
 
-a:hover {
+.icon-nav a:hover {
   color: var(--color-primary);
 }

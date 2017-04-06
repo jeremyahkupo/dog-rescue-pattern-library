@@ -1,7 +1,7 @@
-.image {
+.news-section .image {
   max-width: 30%;
 }
 
-section {
+.news-section {
   background-color: grey;
 }

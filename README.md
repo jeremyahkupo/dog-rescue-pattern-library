@@ -1,4 +1,6 @@
 ---
+outputFile: "index.html"
+
 name: "Loyal Rescue"
 typekit: "igo7cfl=reklame-script:400,700|soleil:400,400i,700,700i"
 fonts:

@@ -3,5 +3,12 @@
 }
 
 .news-section {
-  background-color: grey;
+background-color: #FFFFFF;
+padding: 40px 40px 40px 40px;
+}
+
+.dog-icon {
+  background-color: #efefef;
+  border-radius: 25px;
+  margin: 0;
 }

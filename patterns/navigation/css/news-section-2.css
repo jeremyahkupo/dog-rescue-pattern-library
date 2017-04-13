@@ -1,0 +1,17 @@
+.news-section-2 .image {
+  max-width: 30%;
+}
+
+.news-section-2 {
+  background-color: #9fa2a6;
+  padding: 40px 40px 40px 40px;
+}
+
+.dog-icon {
+  background-color: #efefef;
+  border-radius: 25px;
+}
+
+.news-section-2, .btn-ghost {
+  color: #fff;
+}

@@ -2,11 +2,11 @@
   background-color: var(--color-primary);
   border-color: transparent;
   color: #fff;
-  transition: all 250ms linear
+  transition: all 250ms linear;
 }
 
 .btn:hover {
-  background-color: rgba(98, 104, 175, 0.7);
+  background-color: rgba(98, 104, 175, .7);
   border-color: transparent;
 }
 

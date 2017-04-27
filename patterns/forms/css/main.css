@@ -50,7 +50,7 @@
 }
 
 .form a:focus {
-  background-color: rgba(98, 104, 175, 0.7);
+  background-color: rgba(98, 104, 175, .7);
   border-color: transparent;
   color: #fff;
   outline: 0;

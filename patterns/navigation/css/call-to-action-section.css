@@ -2,11 +2,16 @@
   width: 100%;
 }
 
-.call-to-action-section h2 {
+.call-to-action-section h2  {
   color: #fff;
   font-weight: lighter;
+
 }
 
 .call-to-action-section .logo {
   padding-bottom: 20px;
+}
+
+.call-to-action-section p {
+  color: #fff;
 }

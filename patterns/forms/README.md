@@ -1,0 +1,1 @@
+These are the form input fields featured on the Loyal Rescue website. They feature the company's logo icon in each field, and carry through the brand colours. They also have the appropriate error messages.

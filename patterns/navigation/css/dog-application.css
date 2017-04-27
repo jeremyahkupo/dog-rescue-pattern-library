@@ -2,32 +2,32 @@
   width: 100%;
 }
 
-.rescue-section h2 {
+.application-section h2 {
   color: #fff;
   font-weight: lighter;
 }
 
-.rescue-section p {
+.application-section p {
   color: #fff;
   font-weight: lighter;
 }
 
-.rescue-section.logo {
+.application-section .logo {
   padding-bottom: 20px;
   padding-top: 30px;
 }
 
-.rescue-section {
+.application-section {
   padding-bottom: 30px;
 }
 
-.rescue-section-content {
+.application-section {
   background-color: #9fa2a6;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .call-to-action-content {
+  .application-section-content {
     background-color: inherit;
     position: absolute;
   }

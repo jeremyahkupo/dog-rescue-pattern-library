@@ -14,48 +14,62 @@
 </head>
 <body>
 
-  <form class="form max-length island" method="post" novalidate>
+  <form class="about-you form island" method="post" novalidate>
 
     <div class="push-1-2">
       <label for="name">First Name</label>
       <input id="name" required aria-describedby="name-error">
-      <p class="error-message milli island-1-4 push-0" id="name-error">
+      <p class="error-message micro island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a first name.</span>
       </p>
     </div>
     <div class="push-1-2">
       <label for="last-name">Last Name</label>
       <input id="last-name" required aria-describedby="last-name-error">
-      <p class="error-message milli island-1-4 push-0" id="last-name-error">
+      <p class="error-message micro island-1-4 push-0" id="last-name-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a last name.</span>
       </p>
     </div>
     <div class="push-1-2">
       <label for="email">Email</label>
-      <input id="email" required aria-describedby="email-error">
-      <p class="error-message milli island-1-4 push-0" id="email-error">
+      <input id="email" placeholder="example@loyalrescue.com" required aria-describedby="email-error">
+      <p class="error-message micro island-1-4 push-0" id="email-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a valid email address.</span>
       </p>
     </div>
     <div class="push-1-2">
       <label for="phone">Primary Phone Number</label>
-      <input id="phone" required aria-describedby="phone-error">
+      <input id="phone" placeholder="123-456-7890" required aria-describedby="phone-error">
       <p class="error-message milli island-1-4 push-0" id="phone-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a valid phone number.</span>
+      </p>
+    </div>
+    <div class="push-1-2">
+      <label for="age">Age</label>
+      <input id="age" required aria-describedby="age-error">
+      <p class="error-message milli island-1-4 push-0" id="age-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a valid age.</span>
       </p>
     </div>
     <div class="push-1-2">
       <label for="job">Job Title</label>
       <input id="job" required aria-describedby="job-error">
       <p class="error-message milli island-1-4 push-0" id="job-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a valid job title.</span>
       </p>
     </div>
     <div class="push-1-2">
-      <label for="employer">Employer</label>
-      <input id="employer" required aria-describedby="employer-error">
-      <p class="error-message milli island-1-4 push-0" id="employer-error">
-      </p>
-    </div>
-    <div class="push-1-2">
-      <label for="children">Number of Children</label>
-      <input id="children" required aria-describedby="children-error">
-      <p class="error-message milli island-1-4 push-0" id="children-error">
+      <label for="child">Number of Children</label>
+      <input id="child" required aria-describedby="child-error">
+      <p class="error-message milli island-1-4 push-0" id="child-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/error.svg#error-icon"/></svg></i>
+        <span class="icon-label">Please provide a number. (It may be 0)</span>
       </p>
     </div>
     <div class="push-1-2">
@@ -66,9 +80,8 @@
     </div>
 
     <div class="text-right">
-      <a class="btn" href="#">Next Page</a>
+      <button class="btn" type="submit">Next Section</button>
     </div>
-
   </form>
 
 </body>

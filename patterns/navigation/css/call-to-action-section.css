@@ -15,6 +15,10 @@
   color: #fff;
 }
 
+html {
+  background-color: #9fa2a6;;
+}
+
 @media only screen and (min-width: 60em) {
 
   .call-to-action-content {

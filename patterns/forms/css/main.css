@@ -55,3 +55,15 @@
   color: #fff;
   outline: 0;
 }
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}

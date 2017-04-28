@@ -19,9 +19,6 @@
 
 .application-section {
   padding-bottom: 30px;
-}
-
-.application-section {
   background-color: #9fa2a6;
 }
 
@@ -31,3 +28,5 @@
     background-color: inherit;
     position: absolute;
   }
+
+}
